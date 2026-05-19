@@ -100,7 +100,6 @@ nnoremap <c-o> :action Back<cr>
 nnoremap <c-i> :action Forward<cr>
 
 " Misc
-njoremap <leader>vr :source ~/.ideavimrc<CR>
 noremap <leader>vr :source ~/.ideavimrc<CR>
 
 nnoremap <leader>ip :action ViewImportPopups<CR>
