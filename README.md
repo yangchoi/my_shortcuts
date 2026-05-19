@@ -149,3 +149,4 @@
   - 리팩토링: `<leader>rn` rename · `<leader>rv` 변수 추출 · `<leader>rm` 메서드 추출 · `<leader>oi` import 정리 · `<leader>F` 코드 정렬
   - 이동: `gd` 선언 · `gr` 사용처 · `<leader>ff` 파일 · `<leader>fc` 클래스 · `<leader>fg` 전체 검색 · `ctrl + o/i` 뒤/앞 점프
   - 테스트: `<leader>tn` 실행 · `<leader>tf` 실패 테스트 재실행
+  - 기타: `<leader>vr` 설정 리로드 (`:source ~/.ideavimrc`) · `<leader>ip` import 팝업 보기
