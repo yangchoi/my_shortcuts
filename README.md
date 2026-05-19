@@ -1,284 +1,151 @@
-
-## Pycharm 
-import pop up
-cmd + .
-	
-한줄 지우기 
-cmd + backspace
-
-해당 컨텍스트 테스트 코드 돌리기 
-ctrl + shift + r
-그 이후로는 ctrl + r
-
-파일 가장 윗줄로 가기 
-command + HOME
-
-파일 가장 하단으로 가기 
-command + END
-
-코드 한 줄 복사 
-cmd + D
-
-줄 이동 
-shift + alt + g
-
-터미널 
-ctrl + d
-
-탭 이동
-ctrl + 방향키	
-
-split 탭 이동
-opt + tab
-
-break point 생성
-cmd + f8
-
-documentation 보기 
-f1
-
-테스트 실행
-shift + ctrl + R
-
-declared  된 곳으로 이동 
-alt + d
-
-뒤로 가기 
-ctrl + cmd 방향키 
-
-한 줄 복사 
-cmd + d
-
-폰트 사이즈 줄이기 
-ctrl + shift + ,
-
-폰트 사이즈 늘리기 
-ctrl + shift + .
-
-반대편 창에 해당 코드의 delcare 로 넘어감
-alt + D
-
-git annotate
-ctrl + Q + ctrl + A
-
-검색 중 이전 결과로 돌아가기 
-shift + cmd + G
-
-검색 중 다음 결과로 가기 
-cmd + G
-
-## 맥 단축키 
-
-### 사용 중인 툴 
-- Rectangle.app
-- Apptivate
-
-프로그램 간 전환
-command + tab
-
-프로그램에 열려있는 창들 간 전환
-command + `
-
-화면 밝기
-fn + O, P
-
-뒤로 가기 
-cmd + [
-
-탭 간격 이동
-ctrl + option + 방향키
-
-오른쪽 창 옮기기 
-ctrl + shift + 탭
-
-왼쪽 창 옮기기 
-ctrl + tab
-
-정확한 창 이동
-cmd +ctrl + 1 ~5
-
-북마크
-b
-
-desktop 이동
-ctrl + command + 방향키
-
-창 반쪽으로 만들어 한 쪽에 몰아넣기 
-option + cmd + 방향키
-
-maximize
-ctrl + opt + backspace
-
-fullscreen 
-cmd + ctrl + F
-
-사전
-ctrl + shift + 2
-
-version control 
-ctrl + v
-
-action 
-cmd + shift + p
-
-undo 
-u
-
-redo
-ctrl + r
-
-insert mode
-i
-
-visual mode
-v
-
-visual mode - 복사
-y (yank)
-
-visual mode - 붙여넣기
-p
-
-지우기
-d
-
-한줄 복사
-yy
-
-한줄 삭제
-dd
-
-앞 쪽으로 특정 문자로 향하고 싶을 때 
-f + 원하는 문자 
-
-뒤 쪽으로 특정 문자로 향하고 싶을 때 
-F + 원하는 문자 
-
-tab 밑으로 
-ctrl + d
-
-tab 위로
-ctrl + u
-
-한줄씩 밑으로 
-ctrl + e
-
-한줄씩 위로
-ctrl + y
-
-줄 끝으로 가기 
-$
-
-줄 가장 처음으로
-0
-
-첫글자로
-^
-
-## chrome & chrome vim
-
-? 단축키 목록
-
-u 위로 스크롤
-
-d 아래로 스크롤
-
-o 검색창 열기 
-
-O 새 탭에서 검색창 열기 
-
-H 히스토리 가기 
-
-L 히스토리 앞으로 가기 
-
-t 새탭
-
-x 탭 닫기
-
-/ 검색
-
-J 왼쪽 탭으로 이동
-
-K 오른쪽 탭으로 이동 
-
-n 다음 검색 결과로 
-
-N 이전 검색 결과로 
-
-f 단축키 뜸
-
-gg 최상단
-
-G 최하단
-
-yy 복사 
-
-zz 커서 있는 문서 위치를 화면 중앙으로 이동
-
-G 커서 파일 끝으로 이동
-
-제일 상단으로 가기 
-ctrl + HOME
-
-탭 이동 
-shift + cmd + [, ]
-
-현재 url 복사 
-cmd + l
-
-
-## Iterm
-
-한줄 지우기 
-ctrl + u
-
-줄 범위 설정
-shift+cmd+ 방향키 
-여기서 끝까지 
-space
-
-명령어 제일 끝으로 이동
-ctrl + e
-
-현재 url 복사 
-cmd + l
-
-창 나누기 
-cmd + D
-
-창 이동 
-cmd + opt + 방향키
-
-copy mode
-cmd + ctrl + c 
-
-enter
-copy start
-
-shift-arraw
-select 
-
-stop-selecting
-ctrl + space
-
-exit copy mode
-esc
-
-scroll up 
-cmd + up
-
-scroll down
-cmd + down
-
-duplicate tab
-
-shift + cmd + D
-
-duplicate tab in the new tab
-
-opt + d
-
-####  github
-
-preview 
-cmd + shift + p
+# my_shortcuts
+
+사용하는 단축키와 단축키 툴을 정리한 저장소.
+
+## 목차
+
+- [PyCharm / IntelliJ](#pycharm--intellij)
+- [macOS & 윈도우 관리](#macos--윈도우-관리)
+- [Vim / IdeaVim](#vim--ideavim)
+- [Chrome (Vimium)](#chrome-vimium)
+- [iTerm](#iterm)
+- [GitHub](#github)
+- [설정 파일](#설정-파일)
+
+---
+
+## PyCharm / IntelliJ
+
+| 동작 | 단축키 |
+|---|---|
+| import 팝업 | `cmd + .` |
+| 한 줄 지우기 | `cmd + backspace` |
+| 한 줄 복제 | `cmd + D` |
+| 줄 이동 | `shift + alt + G` |
+| 컨텍스트 테스트 실행 (이후 재실행 `ctrl + R`) | `ctrl + shift + R` |
+| 파일 맨 위 / 맨 아래 | `cmd + HOME` / `cmd + END` |
+| 탭 이동 | `ctrl + 방향키` |
+| split 탭 이동 | `opt + tab` |
+| 터미널 토글 | `ctrl + D` |
+| breakpoint 생성 | `cmd + F8` |
+| documentation 보기 | `F1` |
+| 선언부로 이동 (반대 창) | `alt + D` |
+| 뒤로 가기 | `ctrl + cmd + 방향키` |
+| 폰트 축소 / 확대 | `ctrl + shift + ,` / `ctrl + shift + .` |
+| git annotate | `ctrl + Q + ctrl + A` |
+| 검색 이전 / 다음 결과 | `shift + cmd + G` / `cmd + G` |
+| action 검색 | `cmd + shift + P` |
+
+---
+
+## macOS & 윈도우 관리
+
+> 사용 중인 툴: **Rectangle.app**, **Apptivate**
+
+| 동작 | 단축키 |
+|---|---|
+| 프로그램 전환 | `cmd + tab` |
+| 같은 앱 창 전환 | `` cmd + ` `` |
+| 화면 밝기 | `fn + O` / `fn + P` |
+| 뒤로 가기 | `cmd + [` |
+| 데스크탑 이동 | `ctrl + cmd + 방향키` |
+| 창 반쪽 정렬 | `opt + cmd + 방향키` |
+| maximize | `ctrl + opt + backspace` |
+| fullscreen | `cmd + ctrl + F` |
+| 정확한 창 이동 | `cmd + ctrl + 1~5` |
+| version control | `ctrl + V` |
+| 사전 | `ctrl + shift + 2` |
+
+---
+
+## Vim / IdeaVim
+
+### 모드
+
+| 동작 | 키 |
+|---|---|
+| insert mode | `i` |
+| visual mode | `v` |
+| undo / redo | `u` / `ctrl + r` |
+
+### 편집
+
+| 동작 | 키 |
+|---|---|
+| 복사 (yank) / 붙여넣기 | `y` / `p` |
+| 지우기 | `d` |
+| 한 줄 복사 / 삭제 | `yy` / `dd` |
+
+### 이동
+
+| 동작 | 키 |
+|---|---|
+| 줄 처음 / 줄 끝 | `0` / `$` |
+| 첫 글자 | `^` |
+| 앞으로 특정 문자 점프 | `f + 문자` |
+| 뒤로 특정 문자 점프 | `F + 문자` |
+| 반 페이지 아래 / 위 | `ctrl + d` / `ctrl + u` |
+| 한 줄씩 아래 / 위 스크롤 | `ctrl + e` / `ctrl + y` |
+
+---
+
+## Chrome (Vimium)
+
+| 동작 | 키 |
+|---|---|
+| 단축키 도움말 | `?` |
+| 위 / 아래 스크롤 | `u` / `d` |
+| 검색창 열기 (현재 탭 / 새 탭) | `o` / `O` |
+| 히스토리 뒤로 / 앞으로 | `H` / `L` |
+| 새 탭 / 탭 닫기 | `t` / `x` |
+| 페이지 내 검색 | `/` |
+| 탭 이동 | `J` / `K` |
+| 다음 / 이전 검색 결과 | `n` / `N` |
+| 링크 힌트 | `f` |
+| 최상단 / 최하단 | `gg` / `G` |
+| URL 복사 | `yy` 또는 `cmd + L` |
+| 커서 위치 화면 중앙으로 | `zz` |
+| 탭 이동 (네이티브) | `shift + cmd + [` / `]` |
+
+---
+
+## iTerm
+
+| 동작 | 단축키 |
+|---|---|
+| 한 줄 지우기 | `ctrl + U` |
+| 명령어 맨 끝으로 이동 | `ctrl + E` |
+| 창 나누기 | `cmd + D` |
+| 창 이동 | `cmd + opt + 방향키` |
+| 스크롤 위 / 아래 | `cmd + up` / `cmd + down` |
+| 탭 복제 / 새 탭에 복제 | `shift + cmd + D` / `opt + D` |
+| URL 복사 | `cmd + L` |
+
+### copy mode
+
+| 동작 | 단축키 |
+|---|---|
+| copy mode 진입 | `cmd + ctrl + C` |
+| 선택 시작 | `enter` |
+| 선택 | `shift + 방향키` |
+| 선택 중지 | `ctrl + space` |
+| copy mode 종료 | `esc` |
+
+---
+
+## GitHub
+
+| 동작 | 단축키 |
+|---|---|
+| 마크다운 preview | `cmd + shift + P` |
+
+---
+
+## 설정 파일
+
+- [`config_files/.ideavimrc`](./config_files/.ideavimrc) — IdeaVim 설정 (leader = `space`)
+  - 플러그인: `surround`, `multiple-cursors`, `ideajoin`
+  - 검색: `incsearch` + `hlsearch` + `ignorecase`/`smartcase`, `<leader>ch` 하이라이트 해제
+  - 리팩토링: `<leader>rn` rename · `<leader>rv` 변수 추출 · `<leader>rm` 메서드 추출 · `<leader>oi` import 정리 · `<leader>F` 코드 정렬
+  - 이동: `gd` 선언 · `gr` 사용처 · `<leader>ff` 파일 · `<leader>fc` 클래스 · `<leader>fg` 전체 검색 · `ctrl + o/i` 뒤/앞 점프
+  - 테스트: `<leader>tn` 실행 · `<leader>tf` 실패 테스트 재실행
